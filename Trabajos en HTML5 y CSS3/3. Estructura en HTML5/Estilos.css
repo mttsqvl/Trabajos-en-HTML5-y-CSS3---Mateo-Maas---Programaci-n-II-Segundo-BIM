@@ -1,0 +1,29 @@
+body{ 
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    /* Siempre se termina de declarar las fuentes con el sans-serif, puesto que la computadora carga una página 
+    web por partes, debido a que si el internet no es muy bueno y no puede cargar las fuentes definidas,
+    se mostrara con sans-serif, fuente que es mucho más fácil de cargar */
+}
+
+h1{
+    color:aquamarine;
+    /* Esta etiqueta cambia el color de la etiqueta de título h1 definido en el archivo [Ejemplo 1.html]*/
+}
+
+h1, h2{
+    text-align: center;
+    /* De igual forma, esta etiqueta cambia la alineación de la etiqueta de título h1 y subtítulo h2 en el archivo [Ejemplo 1.html]*/
+}
+
+/* Cuando se edita una etiqueta, se le puede modificar, la fuente, el color, la alineación, tamaño, etc. */
+
+p{  /* La etiqueta p sirve para párrafos. */
+
+    color:black;
+    font-size: 15px;
+}
+
+div h2{ /* div funciona para "encajonar" un texto, para solo modificar esa etiqueta en específico. */
+    color: blue;
+} /* Gracias a este div, solo se modificará el color de la etiqueta h2. */
